@@ -4,10 +4,10 @@
   <div class="space-y-4 my-4">
     <% @customers.each do |customer| %>
       <div class="bg-white border-2 border-gray-300 rounded-3xl px-5 py-4">
-        <span class="text-gray-700 font-bold">
-          <%= customer.first_name %> <%= customer.last_name %>
-        </span>
+      <span class="text-gray-700 font-bold">
+      <%= customer.first_name %> <%= customer.last_name %>
       </div>
     <% end %>
   </div>
+  
 <% end %>
